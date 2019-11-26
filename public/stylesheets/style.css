@@ -1,8 +1,69 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.main-menu{
+ background-color:#24292E;
 }
 
-a {
-  color: #00B7FF;
+.main-menu ul{
+	display: block;
+	position:relative;
+	height: 100%;
+}
+.main-menu ul> li {	
+	height: 64px;
+	width: 15%;
+	margin-left: 2%;
+	text-align: center;	
+}
+
+
+.menu-item{
+	font-size: 14px;
+	line-height:4;
+	font-weight: bold;
+	word-spacing: 0px;
+	height: 100%;
+	background-color:#24292E;
+	vertical-align: middle;
+}
+
+.font-merri{
+	font-family: 'Merriweather', serif;	
+}
+.font-Open{
+	font-family: 'Open Sans Condensed', sans-serif;	
+}
+
+.font-lora{
+	font-family: 'Lora', serif;	
+}
+
+.font-titi{
+	font-family: 'Titillium Web', sans-serif;	
+}
+
+.sf-mayor{
+	font-size: 40px;
+}
+
+.sf-medium{
+	font-size: 20px;
+}
+
+.sf-minor{
+	font-size: 12px;
+}
+
+
+
+.Presentation{
+	margin-top: 15px;
+}
+
+.Presentation > p{
+	margin-top: 10px;
+}
+
+.Presentation > .layer{
+	color : #323330;
+	text-decoration: underline;
+	text-decoration-color: rgba(240, 219, 79 , .4);   ;
 }
